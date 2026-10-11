@@ -1,5 +1,205 @@
 [
   {
+    "description": "Open-source, self-hosted alternative to Airtable, Fibery, Notion databases and ClickUp: a work management database built",
+    "id": "grunion-ai/weave",
+    "install_info": {
+      "claude_config": "{ \"mcpServers\": { \"weave\": { \"command\": \"node\",\n  \"args\": [\"/path/to/weave/bin/weave.js\", \"mcp\", \"--data\", \"/path/to/my-workspace.db\"] } } }",
+      "install_cmd": "claude mcp add weave -- node /path/to/weave/bin/weave.js mcp --data /path/to/my-workspace.db",
+      "install_kind": "claude mcp add"
+    },
+    "language": "JavaScript",
+    "name": "grunion-ai/weave",
+    "stars": 10,
+    "updated_at": "2026-10-11T22:17:58Z",
+    "url": "https://github.com/grunion-ai/weave"
+  },
+  {
+    "description": "MCP server giving LLMs the ability to design, simulate, and analyze SPICE circuits via LTSpice and NGspice",
+    "id": "Cognitohazard/ltspice-mcp",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"spice\": { \"command\": \"ltspice-mcp\", \"args\": [] }\n  }\n}",
+      "install_cmd": "pip install ltspice-mcp",
+      "install_kind": "pip install"
+    },
+    "language": "Python",
+    "name": "Cognitohazard/ltspice-mcp",
+    "stars": 56,
+    "updated_at": "2026-10-11T22:18:02Z",
+    "url": "https://github.com/Cognitohazard/ltspice-mcp"
+  },
+  {
+    "description": "Scores any URL against a 44-check design contract (A-F grade), validates DTCG tokens, and checks drift and AI readiness.",
+    "id": "LE-VAI/designesy-org",
+    "install_info": {
+      "install_cmd": "claude mcp add designesy --transport http https://www.designesy.org/api/mcp",
+      "install_kind": "claude mcp add"
+    },
+    "language": "TypeScript",
+    "name": "LE-VAI/designesy-org",
+    "stars": 0,
+    "updated_at": "2026-10-11T22:17:44Z",
+    "url": "https://github.com/LE-VAI/designesy-org"
+  },
+  {
+    "description": "ComplyEaze Bridge is an open-source (Apache-2.0) TallyPrime MCP server for Claude Desktop, for CA firms and accountants.",
+    "id": "ComplyEaze/bridge",
+    "language": "Rust",
+    "name": "ComplyEaze/bridge",
+    "stars": 25,
+    "updated_at": "2026-10-11T22:17:22Z",
+    "url": "https://github.com/ComplyEaze/bridge"
+  },
+  {
+    "description": "Static code energy analyzer, hardware power profiler, and ISO/IEC 21031 (GSF SCI v1.0) carbon gatekeeper with Amazon Ale",
+    "id": "zeenat28-ui/greencode",
+    "install_info": {
+      "claude_config": "{ \"mcpServers\": { \"greencode\": {\n    \"type\": \"streamable-http\", \"url\": \"http://127.0.0.1:8765/mcp\" } } }",
+      "install_cmd": "pip install -r",
+      "install_kind": "pip install"
+    },
+    "language": "Python",
+    "name": "zeenat28-ui/greencode",
+    "stars": 0,
+    "updated_at": "2026-10-11T22:17:25Z",
+    "url": "https://github.com/zeenat28-ui/greencode"
+  },
+  {
+    "description": "Every local AI coding session in one tab: Claude Code, Codex and OpenCode in a single list, with a queue you can schedul",
+    "id": "LunarWerxs/AgentHydra",
+    "language": "TypeScript",
+    "name": "LunarWerxs/AgentHydra",
+    "stars": 44,
+    "updated_at": "2026-10-11T22:17:15Z",
+    "url": "https://github.com/LunarWerxs/AgentHydra"
+  },
+  {
+    "description": "Design engine for AI agents: images and video at every size, no Chrome, 2\u00d7 fewer tokens. One native binary, driven over ",
+    "id": "keyline-dev/keyline",
+    "install_info": {
+      "claude_config": "{ \"mcpServers\": { \"keyline\": { \"command\": \"keyline-mcp\" } } }"
+    },
+    "language": "Rust",
+    "name": "keyline-dev/keyline",
+    "stars": 4,
+    "updated_at": "2026-10-11T22:17:14Z",
+    "url": "https://github.com/keyline-dev/keyline"
+  },
+  {
+    "description": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and ",
+    "id": "hproxy-com/free-proxy-list",
+    "install_info": {
+      "install_cmd": "claude mcp add --transport http hproxy https://mcp.hproxy.com/mcp",
+      "install_kind": "claude mcp add"
+    },
+    "language": "\u2014",
+    "name": "hproxy-com/free-proxy-list",
+    "stars": 77,
+    "updated_at": "2026-10-11T22:17:14Z",
+    "url": "https://github.com/hproxy-com/free-proxy-list"
+  },
+  {
+    "description": "Animated React, Tailwind CSS and React Native components for AI coding agents. Source code, design prompts and JSON brie",
+    "id": "richawo/Design-components-for-AI-agents",
+    "install_info": {
+      "install_cmd": "claude mcp add --transport http design-for-ai https://design.yaps.ai/mcp",
+      "install_kind": "claude mcp add"
+    },
+    "language": "TypeScript",
+    "name": "richawo/Design-components-for-AI-agents",
+    "stars": 1,
+    "updated_at": "2026-10-11T22:16:43Z",
+    "url": "https://github.com/richawo/Design-components-for-AI-agents"
+  },
+  {
+    "description": "Portable WPE WebKit runtime for AI agents with native input, screenshots, ordered JSONL, and reproducible benchmarks.",
+    "id": "masakaai/jet-browser",
+    "install_info": {
+      "install_cmd": "docker run --rm -i --network=none --cap-drop=ALL \\",
+      "install_kind": "docker run"
+    },
+    "language": "JavaScript",
+    "name": "masakaai/jet-browser",
+    "stars": 2,
+    "updated_at": "2026-10-11T22:16:43Z",
+    "url": "https://github.com/masakaai/jet-browser"
+  },
+  {
+    "description": "Clash Royale history recorder + remote MCP server. Unofficial; not endorsed by Supercell.",
+    "id": "jthingelstad/elixir-mcp",
+    "language": "JavaScript",
+    "name": "jthingelstad/elixir-mcp",
+    "stars": 1,
+    "updated_at": "2026-10-11T22:16:22Z",
+    "url": "https://github.com/jthingelstad/elixir-mcp"
+  },
+  {
+    "description": "A YouTube transcript CLI built for humans and AI agents.",
+    "id": "nmdra/yt-transcript",
+    "language": "Python",
+    "name": "nmdra/yt-transcript",
+    "stars": 1,
+    "updated_at": "2026-10-11T22:16:18Z",
+    "url": "https://github.com/nmdra/yt-transcript"
+  },
+  {
+    "description": "Moteur de recherche libre sur le droit fran\u00e7ais et europ\u00e9en \u2014 jurisprudence et textes (loi \u00e0 n'importe quelle date), en ",
+    "id": "librejustice/librejustice",
+    "language": "Rust",
+    "name": "librejustice/librejustice",
+    "stars": 29,
+    "updated_at": "2026-10-11T22:16:09Z",
+    "url": "https://github.com/librejustice/librejustice"
+  },
+  {
+    "description": "Connect your AI agent to HookRadar to automate competitive creative research and analyze ad performance data using the M",
+    "id": "Anagogic-blastinggelatin157/hookradar-agent-skill",
+    "language": "Python",
+    "name": "Anagogic-blastinggelatin157/hookradar-agent-skill",
+    "stars": 0,
+    "updated_at": "2026-10-11T22:15:49Z",
+    "url": "https://github.com/Anagogic-blastinggelatin157/hookradar-agent-skill"
+  },
+  {
+    "description": "Auto-updated index of MCP servers shipping on GitHub, refreshed every 15 minutes",
+    "id": "linny006/mcp-servers-live",
+    "language": "HTML",
+    "name": "linny006/mcp-servers-live",
+    "stars": 13,
+    "updated_at": "2026-10-11T22:15:42Z",
+    "url": "https://github.com/linny006/mcp-servers-live"
+  },
+  {
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
+    "id": "n8n-io/n8n",
+    "install_info": {
+      "install_cmd": "docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n",
+      "install_kind": "docker run"
+    },
+    "language": "TypeScript",
+    "name": "n8n-io/n8n",
+    "stars": 207015,
+    "updated_at": "2026-10-11T22:15:33Z",
+    "url": "https://github.com/n8n-io/n8n"
+  },
+  {
+    "description": "The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted data context and busine",
+    "id": "open-metadata/OpenMetadata",
+    "language": "TypeScript",
+    "name": "open-metadata/OpenMetadata",
+    "stars": 15440,
+    "updated_at": "2026-10-11T22:15:26Z",
+    "url": "https://github.com/open-metadata/OpenMetadata"
+  },
+  {
+    "description": "Official Multi-OS Desktop Agent & Sovereign AI Canvas Host for Flowork OS. Clean partitioned distributions for Linux & W",
+    "id": "flowork-os/FLOWORK-AGENT",
+    "language": "JavaScript",
+    "name": "flowork-os/FLOWORK-AGENT",
+    "stars": 0,
+    "updated_at": "2026-10-11T22:15:21Z",
+    "url": "https://github.com/flowork-os/FLOWORK-AGENT"
+  },
+  {
     "description": "Auto-updated leaderboard of trending claude-skills and AI agent repos, refreshed every 15 minutes",
     "id": "linny006/trending-claude-skills",
     "language": "Python",
@@ -91,19 +291,6 @@
     "url": "https://github.com/herreravalenz6620/context-compression"
   },
   {
-    "description": "Animated React, Tailwind CSS and React Native components for AI coding agents. Source code, design prompts and JSON brie",
-    "id": "richawo/Design-components-for-AI-agents",
-    "install_info": {
-      "install_cmd": "claude mcp add --transport http design-for-ai https://design.yaps.ai/mcp",
-      "install_kind": "claude mcp add"
-    },
-    "language": "TypeScript",
-    "name": "richawo/Design-components-for-AI-agents",
-    "stars": 1,
-    "updated_at": "2026-10-11T22:14:39Z",
-    "url": "https://github.com/richawo/Design-components-for-AI-agents"
-  },
-  {
     "description": "Bootstrap projects with pre-configured instructions, tests, and linters that guide AI coding agents to produce reliable ",
     "id": "zpratt/lousy-agents",
     "install_info": {
@@ -128,19 +315,6 @@
     "stars": 10,
     "updated_at": "2026-10-11T22:14:34Z",
     "url": "https://github.com/patrykorwat/open-dream-rsi"
-  },
-  {
-    "description": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and ",
-    "id": "hproxy-com/free-proxy-list",
-    "install_info": {
-      "install_cmd": "claude mcp add --transport http hproxy https://mcp.hproxy.com/mcp",
-      "install_kind": "claude mcp add"
-    },
-    "language": "\u2014",
-    "name": "hproxy-com/free-proxy-list",
-    "stars": 77,
-    "updated_at": "2026-10-11T22:14:29Z",
-    "url": "https://github.com/hproxy-com/free-proxy-list"
   },
   {
     "description": "Generate academic quality flowcharts from text or code through this local MCP server that renders SVG graphs using Graph",
@@ -288,7 +462,7 @@
     "language": "TypeScript",
     "name": "TheVilfer/better-tg-cli",
     "stars": 2,
-    "updated_at": "2026-10-11T22:14:16Z",
+    "updated_at": "2026-10-11T22:17:57Z",
     "url": "https://github.com/TheVilfer/better-tg-cli"
   },
   {
@@ -322,20 +496,6 @@
     "stars": 1,
     "updated_at": "2026-10-11T22:12:38Z",
     "url": "https://github.com/Benjinsassi/LeanKG"
-  },
-  {
-    "description": "Open-source, self-hosted alternative to Airtable, Fibery, Notion databases and ClickUp: a work management database built",
-    "id": "grunion-ai/weave",
-    "install_info": {
-      "claude_config": "{ \"mcpServers\": { \"weave\": { \"command\": \"node\",\n  \"args\": [\"/path/to/weave/bin/weave.js\", \"mcp\", \"--data\", \"/path/to/my-workspace.db\"] } } }",
-      "install_cmd": "claude mcp add weave -- node /path/to/weave/bin/weave.js mcp --data /path/to/my-workspace.db",
-      "install_kind": "claude mcp add"
-    },
-    "language": "JavaScript",
-    "name": "grunion-ai/weave",
-    "stars": 10,
-    "updated_at": "2026-10-11T22:13:45Z",
-    "url": "https://github.com/grunion-ai/weave"
   },
   {
     "description": "Connect Claude to live CS2 FACEIT data to retrieve player stats, match history, ELO trends, and head-to-head comparisons",
@@ -390,154 +550,5 @@
     "stars": 0,
     "updated_at": "2026-10-11T22:12:25Z",
     "url": "https://github.com/m190/usefulapi-mcp"
-  },
-  {
-    "description": "Generate Makoto Shinkai style manga sequences and video prompts for AI tools with this Claude Skill. Use professional ch",
-    "id": "princeca4746/DirectorSkill",
-    "language": "\u2014",
-    "name": "princeca4746/DirectorSkill",
-    "stars": 0,
-    "updated_at": "2026-10-11T22:12:23Z",
-    "url": "https://github.com/princeca4746/DirectorSkill"
-  },
-  {
-    "description": "Connect AI agents to the Fluent WordPress ecosystem using standardized MCP servers for CRM, support, boards, community, ",
-    "id": "Dominotypist3077/fluent-mcp-servers",
-    "language": "TypeScript",
-    "name": "Dominotypist3077/fluent-mcp-servers",
-    "stars": 1,
-    "updated_at": "2026-10-11T22:12:16Z",
-    "url": "https://github.com/Dominotypist3077/fluent-mcp-servers"
-  },
-  {
-    "description": "Six MCP servers that help choir singers digitize, render, synthesize, compare, and sing along with sheet music",
-    "id": "raulkivi/sheet-music-mcp",
-    "install_info": {
-      "claude_config": "{\n  \"mcpServers\": {\n    \"omr\": { \"command\": \"uvx\", \"args\": [\"omr-mcp\"] },\n    \"render\": { \"command\": \"uvx\", \"args\": [\"render-mcp\"] },\n    \"synth\": {\n      \"command\": \"uvx\",\n      \"args\": [\"synth-mcp\"],\n      \"env\": { \"SYNTH_SOUNDFONT_PATH\": \"/path/to/soundfont.sf2\" }\n    }\n  }\n}",
-      "install_cmd": "claude mcp add omr -- uvx omr-mcp",
-      "install_kind": "claude mcp add"
-    },
-    "language": "Python",
-    "name": "raulkivi/sheet-music-mcp",
-    "stars": 0,
-    "updated_at": "2026-10-11T22:12:20Z",
-    "url": "https://github.com/raulkivi/sheet-music-mcp"
-  },
-  {
-    "description": "Analyze Client-Side Path Traversal vulnerabilities in frontend frameworks with proof-of-concept labs and detection tools",
-    "id": "marcomackenberg01/cspt_research",
-    "language": "\u2014",
-    "name": "marcomackenberg01/cspt_research",
-    "stars": 0,
-    "updated_at": "2026-10-11T22:12:11Z",
-    "url": "https://github.com/marcomackenberg01/cspt_research"
-  },
-  {
-    "description": "Automate a personal Markdown knowledge base with Spring AI agents that curate, link, and maintain your notes using a sch",
-    "id": "Ohialha4618/karpathy-wiki",
-    "language": "\u2014",
-    "name": "Ohialha4618/karpathy-wiki",
-    "stars": 0,
-    "updated_at": "2026-10-11T22:12:09Z",
-    "url": "https://github.com/Ohialha4618/karpathy-wiki"
-  },
-  {
-    "description": "Connect your AI assistant to Jinguyuan Dumpling Restaurant data to query store information, check operating hours, and m",
-    "id": "texteditorscorpius2015/jinguyuan-dumpling-skill",
-    "language": "Python",
-    "name": "texteditorscorpius2015/jinguyuan-dumpling-skill",
-    "stars": 1,
-    "updated_at": "2026-10-11T22:12:08Z",
-    "url": "https://github.com/texteditorscorpius2015/jinguyuan-dumpling-skill"
-  },
-  {
-    "description": "Stateless governance proxy for MCP (2026-07-28): policy, dry-run, human confirmation, audit, tracing",
-    "id": "Shalimov04/mcp-airlock",
-    "install_info": {
-      "install_cmd": "uvx mcp-airlock --help\npip install mcp-airlock",
-      "install_kind": "uvx"
-    },
-    "language": "Python",
-    "name": "Shalimov04/mcp-airlock",
-    "stars": 18,
-    "updated_at": "2026-10-11T22:12:10Z",
-    "url": "https://github.com/Shalimov04/mcp-airlock"
-  },
-  {
-    "description": "Issue tracker, shared memory and coordination for AI coding agents across sessions and machines. MCP server, Go CLI, Dol",
-    "id": "ariesworx/starfix",
-    "language": "Go",
-    "name": "ariesworx/starfix",
-    "stars": 1,
-    "updated_at": "2026-10-11T22:12:00Z",
-    "url": "https://github.com/ariesworx/starfix"
-  },
-  {
-    "description": "Convert your Obsidian markdown vault into a six-persona MCP team for local LLM tools to provide cited, accurate insights",
-    "id": "Statutecontempt951/obsidian-llm-wiki",
-    "language": "JavaScript",
-    "name": "Statutecontempt951/obsidian-llm-wiki",
-    "stars": 1,
-    "updated_at": "2026-10-11T22:11:47Z",
-    "url": "https://github.com/Statutecontempt951/obsidian-llm-wiki"
-  },
-  {
-    "description": "Moteur de recherche libre sur le droit fran\u00e7ais et europ\u00e9en \u2014 jurisprudence et textes (loi \u00e0 n'importe quelle date), en ",
-    "id": "librejustice/librejustice",
-    "language": "Rust",
-    "name": "librejustice/librejustice",
-    "stars": 29,
-    "updated_at": "2026-10-11T22:11:46Z",
-    "url": "https://github.com/librejustice/librejustice"
-  },
-  {
-    "description": "Open-source desktop workbench for SOAP, REST, GraphQL, gRPC and WebSocket APIs \u2014 WSDL, OpenAPI and .proto import, WS-Sec",
-    "id": "wirebench/wirebench",
-    "language": "TypeScript",
-    "name": "wirebench/wirebench",
-    "stars": 1,
-    "updated_at": "2026-10-11T22:13:28Z",
-    "url": "https://github.com/wirebench/wirebench"
-  },
-  {
-    "description": "Build an open-source Rust agent OS for autonomous Telegram agents, with one binary, APIs, and a tested Rust codebase",
-    "id": "Tamang4607/rustyhand",
-    "language": "Rust",
-    "name": "Tamang4607/rustyhand",
-    "stars": 1,
-    "updated_at": "2026-10-11T22:11:37Z",
-    "url": "https://github.com/Tamang4607/rustyhand"
-  },
-  {
-    "description": "Aziel Runtime by Aziel Eliab \u2014 FragGate MCP Softwares door. https://aziel-runtime.vibelock.workers.dev/ \u00b7 OpenAPI+MCP \u00b7 ",
-    "id": "AzielEliab/aziel-runtime",
-    "install_info": {
-      "claude_config": "{\n  \"mcpServers\": {\n    \"aziel-runtime\": {\n      \"command\": \"node\",\n      \"args\": [\"cli/mcp-stdio.mjs\"],\n      \"cwd\": \"/path/to/aziel-runtime\",\n      \"env\": {\n        \"AZIEL_RUNTIME_URL\": \"https://aziel-runtime.vibelock.workers.dev\"\n      }\n    }\n  }\n}",
-      "install_cmd": "docker run --rm -i aziel-runtime-mcp",
-      "install_kind": "docker run"
-    },
-    "language": "JavaScript",
-    "name": "AzielEliab/aziel-runtime",
-    "stars": 2,
-    "updated_at": "2026-10-11T22:11:27Z",
-    "url": "https://github.com/AzielEliab/aziel-runtime"
-  },
-  {
-    "description": "",
-    "id": "Alicsealed322/remembrallmcp",
-    "language": "\u2014",
-    "name": "Alicsealed322/remembrallmcp",
-    "stars": 0,
-    "updated_at": "2026-10-11T22:11:21Z",
-    "url": "https://github.com/Alicsealed322/remembrallmcp"
-  },
-  {
-    "description": "Discover TokRepo assets from GitHub for AI coding agents and MCP tools with cross-platform search support",
-    "id": "Norrysubtle368/tokrepo-search-skill",
-    "language": "\u2014",
-    "name": "Norrysubtle368/tokrepo-search-skill",
-    "stars": 0,
-    "updated_at": "2026-10-11T22:11:13Z",
-    "url": "https://github.com/Norrysubtle368/tokrepo-search-skill"
   }
 ]
