@@ -1,21 +1,517 @@
 [
   {
-    "description": "\u0410\u043b\u0447\u0435\u0432\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA44020000000082097",
-    "id": "Ukraine-Territorial-MCP/UA44020000000082097",
+    "description": "Anti-poisoning memory store for agents: provenance, versioning, quarantine gate",
+    "id": "Icaro0310/devin-brain",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"devin-memory\": {\n      \"command\": \"devin-memory-mcp\",\n      \"args\": [\"--db\", \"/path/to/memory.db\"]\n    }\n  }\n}",
+      "install_cmd": "pip install -e",
+      "install_kind": "pip install"
+    },
     "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA44020000000082097",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:30:24Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA44020000000082097"
+    "name": "Icaro0310/devin-brain",
+    "stars": 1,
+    "updated_at": "2026-10-11T23:45:23Z",
+    "url": "https://github.com/Icaro0310/devin-brain"
   },
   {
-    "description": "Every local AI coding session in one tab: Claude Code, Codex and OpenCode in a single list, with a queue you can schedul",
-    "id": "LunarWerxs/AgentHydra",
+    "description": "\ud83d\udee0\ufe0f Build a robust AI Kernel for stable, auditable, and sovereign AI systems, ensuring secure execution and compliance ac",
+    "id": "Kirkigmenezes/AIDomesticCoreAIJ",
+    "language": "Python",
+    "name": "Kirkigmenezes/AIDomesticCoreAIJ",
+    "stars": 1,
+    "updated_at": "2026-10-11T23:45:18Z",
+    "url": "https://github.com/Kirkigmenezes/AIDomesticCoreAIJ"
+  },
+  {
+    "description": "Scores any URL against a 44-check design contract (A-F grade), validates DTCG tokens, and checks drift and AI readiness.",
+    "id": "LE-VAI/designesy-org",
+    "install_info": {
+      "install_cmd": "claude mcp add designesy --transport http https://www.designesy.org/api/mcp",
+      "install_kind": "claude mcp add"
+    },
     "language": "TypeScript",
-    "name": "LunarWerxs/AgentHydra",
-    "stars": 44,
-    "updated_at": "2026-10-11T23:30:24Z",
-    "url": "https://github.com/LunarWerxs/AgentHydra"
+    "name": "LE-VAI/designesy-org",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:45:16Z",
+    "url": "https://github.com/LE-VAI/designesy-org"
+  },
+  {
+    "description": "Auto-updated leaderboard of trending claude-skills and AI agent repos, refreshed every 15 minutes",
+    "id": "linny006/trending-claude-skills",
+    "language": "Python",
+    "name": "linny006/trending-claude-skills",
+    "stars": 126,
+    "updated_at": "2026-10-11T23:45:15Z",
+    "url": "https://github.com/linny006/trending-claude-skills"
+  },
+  {
+    "description": "Bashoor Cafe in Piroozi, Mashhad \u2014 live Persian menu, Toman/IRR prices, llms.txt, WebMCP and MCP metadata.",
+    "id": "sepehrkeyhani00/bashoor-ai-menu",
+    "language": "HTML",
+    "name": "sepehrkeyhani00/bashoor-ai-menu",
+    "stars": 1,
+    "updated_at": "2026-10-11T23:45:05Z",
+    "url": "https://github.com/sepehrkeyhani00/bashoor-ai-menu"
+  },
+  {
+    "description": "\ud83e\udd16 Optimize social network interactions for AI agents with a lightweight Python server implementing the Model Context Pro",
+    "id": "khleel213/mcp-server-bluesky-py",
+    "language": "Python",
+    "name": "khleel213/mcp-server-bluesky-py",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:45:04Z",
+    "url": "https://github.com/khleel213/mcp-server-bluesky-py"
+  },
+  {
+    "description": "Catalogue of developer infrastructure free tiers, startup credits and pricing, with side-by-side vendor comparisons for ",
+    "id": "robhunter/agentdeals",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"agentdeals\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"agentdeals\"]\n    }\n  }\n}"
+    },
+    "language": "TypeScript",
+    "name": "robhunter/agentdeals",
+    "stars": 23,
+    "updated_at": "2026-10-11T23:45:18Z",
+    "url": "https://github.com/robhunter/agentdeals"
+  },
+  {
+    "description": "MCP server for Suno AI music generation. Create, manage, and iterate on AI music directly from Claude Code, Cursor, or a",
+    "id": "frankxai/suno-mcp-server",
+    "language": "TypeScript",
+    "name": "frankxai/suno-mcp-server",
+    "stars": 1,
+    "updated_at": "2026-10-11T23:45:00Z",
+    "url": "https://github.com/frankxai/suno-mcp-server"
+  },
+  {
+    "description": "\ud83d\udd0d Enhance code quality with Argus MCP, an AI-driven code review server using a Zero-Trust model for safe and efficient d",
+    "id": "dykeruv/argus-mcp",
+    "language": "Python",
+    "name": "dykeruv/argus-mcp",
+    "stars": 2,
+    "updated_at": "2026-10-11T23:44:54Z",
+    "url": "https://github.com/dykeruv/argus-mcp"
+  },
+  {
+    "description": "Upwork MCP server toolkit: score jobs, Connects ROI, proposal lint and outline, red-flag scan, fee-aware rates. Offline ",
+    "id": "waseemnasir2k26/upwork-mcp-toolkit",
+    "install_info": {
+      "install_cmd": "claude mcp add --transport http upwork https://mcp.upwork.com/mcp",
+      "install_kind": "claude mcp add"
+    },
+    "language": "Python",
+    "name": "waseemnasir2k26/upwork-mcp-toolkit",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:44:37Z",
+    "url": "https://github.com/waseemnasir2k26/upwork-mcp-toolkit"
+  },
+  {
+    "description": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and ",
+    "id": "hproxy-com/free-proxy-list",
+    "install_info": {
+      "install_cmd": "claude mcp add --transport http hproxy https://mcp.hproxy.com/mcp",
+      "install_kind": "claude mcp add"
+    },
+    "language": "\u2014",
+    "name": "hproxy-com/free-proxy-list",
+    "stars": 77,
+    "updated_at": "2026-10-11T23:44:23Z",
+    "url": "https://github.com/hproxy-com/free-proxy-list"
+  },
+  {
+    "description": "Oracle3: open-source trading engine and MCP server for prediction markets. Finds fee-adjusted no-arbitrage violations ac",
+    "id": "YichengYang-Ethan/oracle3-prediction-market-agent",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"oracle3\": { \"command\": \"uvx\", \"args\": [\"--from\", \"oracle3\", \"oracle3-mcp\"] }\n  }\n}",
+      "install_cmd": "claude mcp add oracle3 -- uvx --from oracle3 oracle3-mcp",
+      "install_kind": "claude mcp add"
+    },
+    "language": "Python",
+    "name": "YichengYang-Ethan/oracle3-prediction-market-agent",
+    "stars": 422,
+    "updated_at": "2026-10-11T23:44:37Z",
+    "url": "https://github.com/YichengYang-Ethan/oracle3-prediction-market-agent"
+  },
+  {
+    "description": "\ud83d\ude80 Build and run a scalable Playwright automation framework in TypeScript for UI, API, and performance testing, embracing",
+    "id": "SamEricBailey/PlayWright-Framework-PoC",
+    "language": "TypeScript",
+    "name": "SamEricBailey/PlayWright-Framework-PoC",
+    "stars": 1,
+    "updated_at": "2026-10-11T23:44:13Z",
+    "url": "https://github.com/SamEricBailey/PlayWright-Framework-PoC"
+  },
+  {
+    "description": "\ud83e\ude84 Extract Gemini Business account info and cookies automatically with this Chrome extension for seamless access to key d",
+    "id": "humair832/GeminiBusiness_CookieExtractor",
+    "language": "JavaScript",
+    "name": "humair832/GeminiBusiness_CookieExtractor",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:44:07Z",
+    "url": "https://github.com/humair832/GeminiBusiness_CookieExtractor"
+  },
+  {
+    "description": "",
+    "id": "AmitafAdir-RidaFatima/mcp-shark-viewer-vscode",
+    "language": "JavaScript",
+    "name": "AmitafAdir-RidaFatima/mcp-shark-viewer-vscode",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:43:53Z",
+    "url": "https://github.com/AmitafAdir-RidaFatima/mcp-shark-viewer-vscode"
+  },
+  {
+    "description": "Proves software work: triages failing tests to a cause with evidence, says whether a test could ever fail, breaks your c",
+    "id": "hmamut39/tewip",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"tewip\": { \"command\": \"tewip\", \"args\": [\"mcp\"] }\n  }\n}",
+      "install_cmd": "npm install\nnpx",
+      "install_kind": "npm install"
+    },
+    "language": "TypeScript",
+    "name": "hmamut39/tewip",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:43:53Z",
+    "url": "https://github.com/hmamut39/tewip"
+  },
+  {
+    "description": "Five AI agents. One coordination layer. No relay server. Plus a trust layer that checks whether the review actually happ",
+    "id": "michaeljboscia/triumvirate",
+    "language": "Rust",
+    "name": "michaeljboscia/triumvirate",
+    "stars": 1,
+    "updated_at": "2026-10-11T23:43:29Z",
+    "url": "https://github.com/michaeljboscia/triumvirate"
+  },
+  {
+    "description": "\ud83d\udee0\ufe0f Control and inspect a live Chrome browser with `chrome-devtools-mcp` for reliable automation, debugging, and performa",
+    "id": "bklamheem/chrome-devtools-mcp",
+    "language": "Python",
+    "name": "bklamheem/chrome-devtools-mcp",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:43:27Z",
+    "url": "https://github.com/bklamheem/chrome-devtools-mcp"
+  },
+  {
+    "description": "Accountability infrastructure for long-running AI agents. Self-hosted MCP server: identity, claims and evidence, review,",
+    "id": "cirwel/unitares",
+    "language": "Python",
+    "name": "cirwel/unitares",
+    "stars": 5,
+    "updated_at": "2026-10-11T23:43:26Z",
+    "url": "https://github.com/cirwel/unitares"
+  },
+  {
+    "description": "MCP server for the KIT Campus portal: exam results, registrations, study progress, timetables, and module catalogues.",
+    "id": "OutBlade/kit-campus-mcp",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"kit-campus\": {\n      \"command\": \"C:\\\\Users\\\\blade\\\\kit-campus-mcp\\\\.venv\\\\Scripts\\\\kit-campus-mcp.exe\",\n      \"env\": { \"KIT_USERNAME\": \"ab1234\", \"KIT_PASSWORD\": \"...\" }\n    }\n  }\n}",
+      "install_cmd": "claude mcp add kit-campus -- C:\\Users\\blade\\kit-campus-mcp\\.venv\\Scripts\\kit-campus-mcp.exe",
+      "install_kind": "claude mcp add"
+    },
+    "language": "Python",
+    "name": "OutBlade/kit-campus-mcp",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:43:21Z",
+    "url": "https://github.com/OutBlade/kit-campus-mcp"
+  },
+  {
+    "description": "\ud83d\udee0\ufe0f Build efficient Zig-based tools with MCP.zig, focusing on modularity and performance for streamlined software develop",
+    "id": "nobita5609/mcp.zig",
+    "language": "Zig",
+    "name": "nobita5609/mcp.zig",
+    "stars": 2,
+    "updated_at": "2026-10-11T23:43:18Z",
+    "url": "https://github.com/nobita5609/mcp.zig"
+  },
+  {
+    "description": "Read top headlines from major newsrooms worldwide, ad-free, in one calm desktop app.",
+    "id": "redblac/masthead",
+    "language": "TypeScript",
+    "name": "redblac/masthead",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:43:15Z",
+    "url": "https://github.com/redblac/masthead"
+  },
+  {
+    "description": "CLI and MCP server for smbCloud: smbCloud Mail, smbCloud Auth, smbCloud Deploy, and PGresIQ. One Rust binary.",
+    "id": "smbcloudXYZ/smbcloud-cli",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"smbcloud\": {\n      \"command\": \"npx\",\n      \"args\": [\"@smbcloud/cli\", \"--mcp\"]\n    }\n  }\n}",
+      "install_cmd": "claude mcp add smbcloud -- smb --mcp",
+      "install_kind": "claude mcp add"
+    },
+    "language": "Rust",
+    "name": "smbcloudXYZ/smbcloud-cli",
+    "stars": 10,
+    "updated_at": "2026-10-11T23:42:52Z",
+    "url": "https://github.com/smbcloudXYZ/smbcloud-cli"
+  },
+  {
+    "description": "AI agent for LTspice circuits: edits schematics, simulates on ngspice, LTspice, Xyce or Spectre, and sizes parts to meet",
+    "id": "danieltyukov/aispice",
+    "install_info": {
+      "install_cmd": "claude mcp add aispice -- aispice mcp --project ~/circuits",
+      "install_kind": "claude mcp add"
+    },
+    "language": "Rust",
+    "name": "danieltyukov/aispice",
+    "stars": 2,
+    "updated_at": "2026-10-11T23:42:35Z",
+    "url": "https://github.com/danieltyukov/aispice"
+  },
+  {
+    "description": "231 hosted remote MCP servers for SaaS tools (CRM, scheduling, payments, messaging and more). Connect from Claude, Curso",
+    "id": "m190/usefulapi-mcp",
+    "language": "JavaScript",
+    "name": "m190/usefulapi-mcp",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:42:35Z",
+    "url": "https://github.com/m190/usefulapi-mcp"
+  },
+  {
+    "description": "Rules you can enforce, state you can derive, context you can query: plain files in your repo, under whichever coding age",
+    "id": "mmnto-ai/totem",
+    "language": "TypeScript",
+    "name": "mmnto-ai/totem",
+    "stars": 17,
+    "updated_at": "2026-10-11T23:43:04Z",
+    "url": "https://github.com/mmnto-ai/totem"
+  },
+  {
+    "description": "One MCP hub \u2014 any AI controls any infrastructure. Self-hosted, works with ChatGPT, Claude, Codex, DeepSeek, Qwen, Alice,",
+    "id": "megamen32/gptadmin_opensource",
+    "install_info": {
+      "install_cmd": "pip install fastapi",
+      "install_kind": "pip install"
+    },
+    "language": "Go",
+    "name": "megamen32/gptadmin_opensource",
+    "stars": 10,
+    "updated_at": "2026-10-11T23:42:23Z",
+    "url": "https://github.com/megamen32/gptadmin_opensource"
+  },
+  {
+    "description": "",
+    "id": "MoAz06/HeyJoost",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"heyjoost\": {\n      \"command\": \"uv\",\n      \"args\": [\"--directory\", \"/pad/naar/HeyJoost\", \"run\", \"nederland-mcp\"]\n    }\n  }\n}",
+      "install_cmd": "claude mcp add heyjoost -- uv --directory /pad/naar/HeyJoost run nederland-mcp",
+      "install_kind": "claude mcp add"
+    },
+    "language": "Python",
+    "name": "MoAz06/HeyJoost",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:42:07Z",
+    "url": "https://github.com/MoAz06/HeyJoost"
+  },
+  {
+    "description": "MCP server for Jira & Confluence \u2014 22 tools, 15 resources, 5 prompts for custom fields, issue links, attachments, agile ",
+    "id": "vish288/mcp-atlassian-extended",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"atlassian-extended\": {\n      \"command\": \"uvx\",\n      \"args\": [\"mcp-atlassian-extended\"],\n      \"env\": {\n        \"JIRA_URL\": \"https://your-company.atlassian.net\",\n        \"JIRA_USERNAME\": \"your.email@company.com\",\n        \"JIRA_API_TOKEN\": \"your_api_token\",\n        \"CONFLUENCE_URL\": \"https://your-company.atlassian.net/wiki\",\n        \"CONFLUENCE_USERNAME\": \"your.email@company.com\",\n        \"CONFLUENCE_API_TOKEN\": \"your_api_token\"\n      }\n    }\n  }\n}",
+      "install_cmd": "claude mcp add atlassian-extended -- uvx mcp-atlassian-extended",
+      "install_kind": "claude mcp add"
+    },
+    "language": "Python",
+    "name": "vish288/mcp-atlassian-extended",
+    "stars": 3,
+    "updated_at": "2026-10-11T23:41:52Z",
+    "url": "https://github.com/vish288/mcp-atlassian-extended"
+  },
+  {
+    "description": "Local-first CLI that mines your tools (GitHub, Jira, AWS, \u2026) into agent-ready context and runs autonomous LLM agents aga",
+    "id": "iklobato/briar",
+    "install_info": {
+      "install_cmd": "pip install briar-cli",
+      "install_kind": "pip install"
+    },
+    "language": "Python",
+    "name": "iklobato/briar",
+    "stars": 2,
+    "updated_at": "2026-10-11T23:41:47Z",
+    "url": "https://github.com/iklobato/briar"
+  },
+  {
+    "description": "\ud83c\udf10 Enable seamless semantic search over AWS Cloudscape documentation for AI agents and coding assistants with this effici",
+    "id": "prem676/cloudscape-docs-mcp",
+    "language": "Python",
+    "name": "prem676/cloudscape-docs-mcp",
+    "stars": 1,
+    "updated_at": "2026-10-11T23:41:41Z",
+    "url": "https://github.com/prem676/cloudscape-docs-mcp"
+  },
+  {
+    "description": "\ud83e\udde0 The memory that dreams \u2014 cross-session memory for DeepSeek Harness. Offline & private, auto-consolidates in its sleep ",
+    "id": "slow-stack/mneme",
+    "language": "JavaScript",
+    "name": "slow-stack/mneme",
+    "stars": 145,
+    "updated_at": "2026-10-11T23:41:30Z",
+    "url": "https://github.com/slow-stack/mneme"
+  },
+  {
+    "description": "MCP server that exposes Zotero library operations as tools for Claude. Supports searching, browsing collections, adding ",
+    "id": "Xevos117/mcp-zotero",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"zotero\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@xevos117/mcp-zotero\"],\n      \"env\": {\n        \"ZOTERO_API_KEY\": \"YOUR_API_KEY\",\n        \"ZOTERO_USER_ID\": \"YOUR_USER_ID\",\n        \"UNSAFE_OPERATIONS\": \"items\"\n      }\n    }\n  }\n}",
+      "install_cmd": "npm install\nnpm",
+      "install_kind": "npm install"
+    },
+    "language": "TypeScript",
+    "name": "Xevos117/mcp-zotero",
+    "stars": 37,
+    "updated_at": "2026-10-11T23:41:26Z",
+    "url": "https://github.com/Xevos117/mcp-zotero"
+  },
+  {
+    "description": "The open-source agent platform for applications.",
+    "id": "cuttlely/cuttlely",
+    "language": "Python",
+    "name": "cuttlely/cuttlely",
+    "stars": 2,
+    "updated_at": "2026-10-11T23:40:52Z",
+    "url": "https://github.com/cuttlely/cuttlely"
+  },
+  {
+    "description": "\u9762\u5411 Chrome/Firefox \u7684\u8f7b\u91cf\u7ea7\u6d4f\u89c8\u5668\u5b89\u5168\u5de5\u4f5c\u53f0\uff1a\u96c6\u6210\u6293\u5305\u3001\u62e6\u622a\u6539\u5305\u3001\u91cd\u653e/Fuzz\u3001\u654f\u611f\u4fe1\u606f\u68c0\u6d4b\u3001HawkEye MCP \u4e0e\u6d4f\u89c8\u5668\u7ea7 Agent\u3002\uff08A lightweight Chrome/Firefox browser se",
+    "id": "asaotomo/Hx0-HawkEye",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"hx0-hawkeye\": {\n      \"command\": \"node\",\n      \"args\": [\"/absolute/path/mcp-server/hawkeye-mcp-server.mjs\"]\n    }\n  }\n}"
+    },
+    "language": "\u2014",
+    "name": "asaotomo/Hx0-HawkEye",
+    "stars": 91,
+    "updated_at": "2026-10-11T23:42:33Z",
+    "url": "https://github.com/asaotomo/Hx0-HawkEye"
+  },
+  {
+    "description": "\ud83d\udee0\ufe0f Build a flexible search and navigation tool for RimWorld\u2019s source code and XML definitions, enabling AI-assisted retr",
+    "id": "Mezo1122/RiMCP_hybrid",
+    "language": "HTML",
+    "name": "Mezo1122/RiMCP_hybrid",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:40:36Z",
+    "url": "https://github.com/Mezo1122/RiMCP_hybrid"
+  },
+  {
+    "description": "Out-of-band server management for humans and AI agents: Redfish (iDRAC, iLO, XCC, Supermicro) with IPMI fallback. Read-o",
+    "id": "Blackman99/rackhands",
+    "install_info": {
+      "claude_config": "{\"mcpServers\": {\"rackhands\": {\"command\": \"rackhands\", \"args\": [\"mcp\"], \"env\": {\"BMC_PASSWORD\": \"\u2026\"}}}}"
+    },
+    "language": "Go",
+    "name": "Blackman99/rackhands",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:40:22Z",
+    "url": "https://github.com/Blackman99/rackhands"
+  },
+  {
+    "description": "MCP server for the GitLab REST API \u2014 91 tools, 7 resources, 6 prompts for projects, MRs, draft reviews, repository files",
+    "id": "vish288/mcp-gitlab",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"gitlab\": {\n      \"command\": \"uvx\",\n      \"args\": [\"mcp-gitlab\"],\n      \"env\": {\n        \"GITLAB_URL\": \"https://gitlab.example.com\",\n        \"GITLAB_TOKEN\": \"glpat-xxxxxxxxxxxxxxxxxxxx\"\n      }\n    }\n  }\n}",
+      "install_cmd": "claude mcp add gitlab -- uvx mcp-gitlab",
+      "install_kind": "claude mcp add"
+    },
+    "language": "Python",
+    "name": "vish288/mcp-gitlab",
+    "stars": 6,
+    "updated_at": "2026-10-11T23:40:09Z",
+    "url": "https://github.com/vish288/mcp-gitlab"
+  },
+  {
+    "description": "\ud83e\udd16 Enable AI code generation using the Code Execution MCP Server, integrating large language models with the Model Contex",
+    "id": "Jame0077/mcp-code-mode",
+    "language": "Python",
+    "name": "Jame0077/mcp-code-mode",
+    "stars": 1,
+    "updated_at": "2026-10-11T23:40:01Z",
+    "url": "https://github.com/Jame0077/mcp-code-mode"
+  },
+  {
+    "description": "Argo CD MCP server \u2014 37 tools, 7 resources, 7 prompts for app status, sync, rollback, drift, logs, ApplicationSets, clus",
+    "id": "vish288/mcp-argocd",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"argocd\": {\n      \"command\": \"uvx\",\n      \"args\": [\"mcp-argocd\"],\n      \"env\": {\n        \"ARGOCD_URL\": \"https://argocd.example.com\",\n        \"ARGOCD_TOKEN\": \"<token>\"\n      }\n    }\n  }\n}",
+      "install_cmd": "claude mcp add argocd -- uvx mcp-argocd",
+      "install_kind": "claude mcp add"
+    },
+    "language": "Python",
+    "name": "vish288/mcp-argocd",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:39:59Z",
+    "url": "https://github.com/vish288/mcp-argocd"
+  },
+  {
+    "description": "\ud83d\udd12 Access and manage encrypted SQLite databases effortlessly with this MCP server, designed for seamless integration with",
+    "id": "TahaHussein-dotcom/mcp-encrypted-sqlite",
+    "language": "\u2014",
+    "name": "TahaHussein-dotcom/mcp-encrypted-sqlite",
+    "stars": 1,
+    "updated_at": "2026-10-11T23:39:53Z",
+    "url": "https://github.com/TahaHussein-dotcom/mcp-encrypted-sqlite"
+  },
+  {
+    "description": "The whole local AI stack in one executable: it runs and manages local AI models across every GPU, and it's a search engi",
+    "id": "tobocop2/lilbee",
+    "language": "Python",
+    "name": "tobocop2/lilbee",
+    "stars": 64,
+    "updated_at": "2026-10-11T23:39:43Z",
+    "url": "https://github.com/tobocop2/lilbee"
+  },
+  {
+    "description": "NENRIN: tree rings for AI facing services. Bitcoin-anchored public ledger, open witnessing, and an MCP server for verifi",
+    "id": "ogasurfproject-jpg/horizon-shield",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"horizon-shield\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"mcp-remote\", \"https://mcp.horizonshield.dev/\"]\n    }\n  }\n}"
+    },
+    "language": "HTML",
+    "name": "ogasurfproject-jpg/horizon-shield",
+    "stars": 2,
+    "updated_at": "2026-10-11T23:39:43Z",
+    "url": "https://github.com/ogasurfproject-jpg/horizon-shield"
+  },
+  {
+    "description": "Async Rust MCP server for the HPE Juniper Mist cloud \u2014 bearer-token auth, org/site-scoped tools, bounded responses, guar",
+    "id": "mechubsec/rustmistmcp",
+    "language": "Rust",
+    "name": "mechubsec/rustmistmcp",
+    "stars": 1,
+    "updated_at": "2026-10-11T23:39:08Z",
+    "url": "https://github.com/mechubsec/rustmistmcp"
+  },
+  {
+    "description": "\ud83d\ude80 Build and deploy a Node.js server with Kubernetes using k3d. Easily manage your application and serve static content s",
+    "id": "AmrKhater0011/devops_server",
+    "language": "JavaScript",
+    "name": "AmrKhater0011/devops_server",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:39:00Z",
+    "url": "https://github.com/AmrKhater0011/devops_server"
+  },
+  {
+    "description": "MCP server for the Coda API \u2014 53 tools, 12 resources, 5 prompts for docs, pages, tables, rows, formulas, permissions, pu",
+    "id": "vish288/mcp-coda",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"coda\": {\n      \"command\": \"uvx\",\n      \"args\": [\"mcp-coda\"],\n      \"env\": {\n        \"CODA_API_TOKEN\": \"your-token-here\"\n      }\n    }\n  }\n}",
+      "install_cmd": "claude mcp add coda -- uvx mcp-coda",
+      "install_kind": "claude mcp add"
+    },
+    "language": "Python",
+    "name": "vish288/mcp-coda",
+    "stars": 2,
+    "updated_at": "2026-10-11T23:38:55Z",
+    "url": "https://github.com/vish288/mcp-coda"
+  },
+  {
+    "description": "\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA68040000000086061",
+    "id": "Ukraine-Territorial-MCP/UA68040000000086061",
+    "language": "Python",
+    "name": "Ukraine-Territorial-MCP/UA68040000000086061",
+    "stars": 0,
+    "updated_at": "2026-10-11T23:38:48Z",
+    "url": "https://github.com/Ukraine-Territorial-MCP/UA68040000000086061"
   },
   {
     "description": "Static code energy analyzer, hardware power profiler, and ISO/IEC 21031 (GSF SCI v1.0) carbon gatekeeper with Amazon Ale",
@@ -28,481 +524,25 @@
     "language": "Python",
     "name": "zeenat28-ui/greencode",
     "stars": 0,
-    "updated_at": "2026-10-11T23:30:23Z",
+    "updated_at": "2026-10-11T23:44:16Z",
     "url": "https://github.com/zeenat28-ui/greencode"
   },
   {
-    "description": "Auto-updated leaderboard of trending claude-skills and AI agent repos, refreshed every 15 minutes",
-    "id": "linny006/trending-claude-skills",
+    "description": "\u041a\u0430\u043c\u2019\u044f\u043d\u0435\u0446\u044c-\u041f\u043e\u0434\u0456\u043b\u044c\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA68020000000016021",
+    "id": "Ukraine-Territorial-MCP/UA68020000000016021",
     "language": "Python",
-    "name": "linny006/trending-claude-skills",
-    "stars": 126,
-    "updated_at": "2026-10-11T23:30:15Z",
-    "url": "https://github.com/linny006/trending-claude-skills"
-  },
-  {
-    "description": "\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0456\u0439\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA35080000000062763",
-    "id": "Ukraine-Territorial-MCP/UA35080000000062763",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA35080000000062763",
+    "name": "Ukraine-Territorial-MCP/UA68020000000016021",
     "stars": 0,
-    "updated_at": "2026-10-11T23:30:14Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA35080000000062763"
+    "updated_at": "2026-10-11T23:38:39Z",
+    "url": "https://github.com/Ukraine-Territorial-MCP/UA68020000000016021"
   },
   {
-    "description": "Bashoor Cafe in Piroozi, Mashhad \u2014 live Persian menu, Toman/IRR prices, llms.txt, WebMCP and MCP metadata.",
-    "id": "sepehrkeyhani00/bashoor-ai-menu",
-    "language": "HTML",
-    "name": "sepehrkeyhani00/bashoor-ai-menu",
-    "stars": 1,
-    "updated_at": "2026-10-11T23:30:06Z",
-    "url": "https://github.com/sepehrkeyhani00/bashoor-ai-menu"
-  },
-  {
-    "description": "\u041d\u043e\u0432\u043e\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA35060000000086172",
-    "id": "Ukraine-Territorial-MCP/UA35060000000086172",
+    "description": "\u0425\u0435\u0440\u0441\u043e\u043d\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA65100000000029736",
+    "id": "Ukraine-Territorial-MCP/UA65100000000029736",
     "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA35060000000086172",
+    "name": "Ukraine-Territorial-MCP/UA65100000000029736",
     "stars": 0,
-    "updated_at": "2026-10-11T23:30:03Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA35060000000086172"
-  },
-  {
-    "description": "\u041a\u0440\u043e\u043f\u0438\u0432\u043d\u0438\u0446\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA35040000000034705",
-    "id": "Ukraine-Territorial-MCP/UA35040000000034705",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA35040000000034705",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:29:53Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA35040000000034705"
-  },
-  {
-    "description": "\u0413\u043e\u043b\u043e\u0432\u0430\u043d\u0456\u0432\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA35020000000074289",
-    "id": "Ukraine-Territorial-MCP/UA35020000000074289",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA35020000000074289",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:29:43Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA35020000000074289"
-  },
-  {
-    "description": "\u0424\u0430\u0441\u0442\u0456\u0432\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA32140000000020217",
-    "id": "Ukraine-Territorial-MCP/UA32140000000020217",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA32140000000020217",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:29:34Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA32140000000020217"
-  },
-  {
-    "description": "Computer Use for macOS: background app control, native human controls and verified updates over MCP. Windows and Linux p",
-    "id": "codewhale-hq/codewhale-cu-plugin",
-    "language": "JavaScript",
-    "name": "codewhale-hq/codewhale-cu-plugin",
-    "stars": 3,
-    "updated_at": "2026-10-11T23:29:32Z",
-    "url": "https://github.com/codewhale-hq/codewhale-cu-plugin"
-  },
-  {
-    "description": "\u041e\u0431\u0443\u0445\u0456\u0432\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA32120000000081110",
-    "id": "Ukraine-Territorial-MCP/UA32120000000081110",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA32120000000081110",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:29:25Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA32120000000081110"
-  },
-  {
-    "description": "XC-MCP delivers an intelligent MCP server for Xcode tooling with progressive disclosure and caching to prevent token ove",
-    "id": "ericvoltolin/xc-mcp",
-    "language": "TypeScript",
-    "name": "ericvoltolin/xc-mcp",
-    "stars": 5,
-    "updated_at": "2026-10-11T23:29:22Z",
-    "url": "https://github.com/ericvoltolin/xc-mcp"
-  },
-  {
-    "description": "\u0412\u0438\u0448\u0433\u043e\u0440\u043e\u0434\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA32100000000065867",
-    "id": "Ukraine-Territorial-MCP/UA32100000000065867",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA32100000000065867",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:29:15Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA32100000000065867"
-  },
-  {
-    "description": "Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and ",
-    "id": "hproxy-com/free-proxy-list",
-    "install_info": {
-      "install_cmd": "claude mcp add --transport http hproxy https://mcp.hproxy.com/mcp",
-      "install_kind": "claude mcp add"
-    },
-    "language": "\u2014",
-    "name": "hproxy-com/free-proxy-list",
-    "stars": 77,
-    "updated_at": "2026-10-11T23:29:08Z",
-    "url": "https://github.com/hproxy-com/free-proxy-list"
-  },
-  {
-    "description": "\u0411\u0443\u0447\u0430\u043d\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA32080000000084076",
-    "id": "Ukraine-Territorial-MCP/UA32080000000084076",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA32080000000084076",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:29:06Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA32080000000084076"
-  },
-  {
-    "description": "Animated React, Tailwind CSS and React Native components for AI coding agents. Source code, design prompts and JSON brie",
-    "id": "richawo/Design-components-for-AI-agents",
-    "install_info": {
-      "install_cmd": "claude mcp add --transport http design-for-ai https://design.yaps.ai/mcp",
-      "install_kind": "claude mcp add"
-    },
-    "language": "TypeScript",
-    "name": "richawo/Design-components-for-AI-agents",
-    "stars": 1,
-    "updated_at": "2026-10-11T23:29:01Z",
-    "url": "https://github.com/richawo/Design-components-for-AI-agents"
-  },
-  {
-    "description": "\u0411\u0440\u043e\u0432\u0430\u0440\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA32060000000012455",
-    "id": "Ukraine-Territorial-MCP/UA32060000000012455",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA32060000000012455",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:28:57Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA32060000000012455"
-  },
-  {
-    "description": "MCP server that delegates Claude Code subagents to local models (LiteLLM/llama.cpp/Ollama), DeepSeek, AWS Bedrock, or an",
-    "id": "fegone/claude-code-delegate-local",
-    "install_info": {
-      "install_cmd": "claude mcp add delegate-local \\",
-      "install_kind": "claude mcp add"
-    },
-    "language": "Python",
-    "name": "fegone/claude-code-delegate-local",
-    "stars": 13,
-    "updated_at": "2026-10-11T23:28:53Z",
-    "url": "https://github.com/fegone/claude-code-delegate-local"
-  },
-  {
-    "description": "Your AI agents can't see your files. ctxd connects your cloud data and makes it searchable via API, CLI, or MCP.",
-    "id": "ctxd-dev/ctxd",
-    "language": "Python",
-    "name": "ctxd-dev/ctxd",
-    "stars": 62,
-    "updated_at": "2026-10-11T23:28:52Z",
-    "url": "https://github.com/ctxd-dev/ctxd"
-  },
-  {
-    "description": "\u0411\u043e\u0440\u0438\u0441\u043f\u0456\u043b\u044c\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA32040000000054694",
-    "id": "Ukraine-Territorial-MCP/UA32040000000054694",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA32040000000054694",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:28:48Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA32040000000054694"
-  },
-  {
-    "description": "\u0411\u0456\u043b\u043e\u0446\u0435\u0440\u043a\u0456\u0432\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA32020000000057002",
-    "id": "Ukraine-Territorial-MCP/UA32020000000057002",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA32020000000057002",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:28:39Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA32020000000057002"
-  },
-  {
-    "description": "Why isn't Postfix delivering? Queue, qshape, mail log and SPF/DKIM/DMARC/PTR diagnosis as a CLI and read-only MCP server",
-    "id": "Blackman99/postsleuth",
-    "install_info": {
-      "claude_config": "{\"mcpServers\": {\"postsleuth\": {\"command\": \"postsleuth\", \"args\": [\"mcp\"]}}}"
-    },
-    "language": "Go",
-    "name": "Blackman99/postsleuth",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:28:35Z",
-    "url": "https://github.com/Blackman99/postsleuth"
-  },
-  {
-    "description": "\u041d\u0430\u0434\u0432\u0456\u0440\u043d\u044f\u043d\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA26120000000036058",
-    "id": "Ukraine-Territorial-MCP/UA26120000000036058",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA26120000000036058",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:28:29Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA26120000000036058"
-  },
-  {
-    "description": "\u041a\u043e\u0441\u0456\u0432\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA26100000000092255",
-    "id": "Ukraine-Territorial-MCP/UA26100000000092255",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA26100000000092255",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:28:20Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA26100000000092255"
-  },
-  {
-    "description": "\u041a\u043e\u043b\u043e\u043c\u0438\u0439\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA26080000000050130",
-    "id": "Ukraine-Territorial-MCP/UA26080000000050130",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA26080000000050130",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:28:11Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA26080000000050130"
-  },
-  {
-    "description": "The browser your coding agent can come back to \u2014 visible, persistent, isolated workspaces over MCP.",
-    "id": "hronaut/hronaut",
-    "install_info": {
-      "claude_config": "{\n  \"mcpServers\": {\n    \"hronaut\": {\n      \"url\": \"http://127.0.0.1:47812/mcp\"\n    }\n  }\n}",
-      "install_cmd": "npm install\nnpm",
-      "install_kind": "npm install"
-    },
-    "language": "TypeScript",
-    "name": "hronaut/hronaut",
-    "stars": 6,
-    "updated_at": "2026-10-11T23:28:09Z",
-    "url": "https://github.com/hronaut/hronaut"
-  },
-  {
-    "description": "Obsidian Turbocharged \u2014 governed, agent-ready Obsidian MCP server. 163 tools across 31 domains, multi-vault native, plug",
-    "id": "The-40-Thieves/obsidian-tc",
-    "install_info": {
-      "install_cmd": "npm install -g obsidian-tc",
-      "install_kind": "npm install -g"
-    },
-    "language": "TypeScript",
-    "name": "The-40-Thieves/obsidian-tc",
-    "stars": 9,
-    "updated_at": "2026-10-11T23:28:09Z",
-    "url": "https://github.com/The-40-Thieves/obsidian-tc"
-  },
-  {
-    "description": "Lessons your coding agent can trust: briefed before every task, proven by checks, and flagged when the code they cover c",
-    "id": "emeraldleaf/okl",
-    "install_info": {
-      "install_cmd": "pip install -e",
-      "install_kind": "pip install"
-    },
-    "language": "Python",
-    "name": "emeraldleaf/okl",
-    "stars": 1,
-    "updated_at": "2026-10-11T23:28:07Z",
-    "url": "https://github.com/emeraldleaf/okl"
-  },
-  {
-    "description": "MCP server for Wiki.js: search, read and edit pages, and manage assets, users, groups and comments",
-    "id": "ni-c/wikijs-mcp",
-    "install_info": {
-      "claude_config": "{\n  \"mcpServers\": {\n    \"wikijs-mcp\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@ni-c/wikijs-mcp\"],\n      \"env\": {\n        \"WIKIJS_URL\": \"https://wiki.example.com\",\n        \"WIKIJS_TOKEN\": \"\u2026\"\n      }\n    }\n  }\n}",
-      "install_cmd": "claude mcp add wikijs-mcp -- npx -y @ni-c/wikijs-mcp",
-      "install_kind": "claude mcp add"
-    },
-    "language": "TypeScript",
-    "name": "ni-c/wikijs-mcp",
-    "stars": 3,
-    "updated_at": "2026-10-11T23:28:12Z",
-    "url": "https://github.com/ni-c/wikijs-mcp"
-  },
-  {
-    "description": "\u041a\u0430\u043b\u0443\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA26060000000042554",
-    "id": "Ukraine-Territorial-MCP/UA26060000000042554",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA26060000000042554",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:28:02Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA26060000000042554"
-  },
-  {
-    "description": "\u0406\u0432\u0430\u043d\u043e-\u0424\u0440\u0430\u043d\u043a\u0456\u0432\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA26040000000044761",
-    "id": "Ukraine-Territorial-MCP/UA26040000000044761",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA26040000000044761",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:27:52Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA26040000000044761"
-  },
-  {
-    "description": "Tauri 2 desktop intelligence platform \u2014 Cesium.js 3D globe, 185 live panels, MCP server for Claude Code, and an explaina",
-    "id": "bradleybond512/crystal-ball",
-    "language": "TypeScript",
-    "name": "bradleybond512/crystal-ball",
-    "stars": 9,
-    "updated_at": "2026-10-11T23:30:15Z",
-    "url": "https://github.com/bradleybond512/crystal-ball"
-  },
-  {
-    "description": "\u0412\u0435\u0440\u0445\u043e\u0432\u0438\u043d\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA26020000000044654",
-    "id": "Ukraine-Territorial-MCP/UA26020000000044654",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA26020000000044654",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:27:43Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA26020000000044654"
-  },
-  {
-    "description": "\u041f\u043e\u043b\u043e\u0433\u0456\u0432\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA23100000000034132",
-    "id": "Ukraine-Territorial-MCP/UA23100000000034132",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA23100000000034132",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:27:34Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA23100000000034132"
-  },
-  {
-    "description": "\u041c\u0435\u043b\u0456\u0442\u043e\u043f\u043e\u043b\u044c\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA23080000000090746",
-    "id": "Ukraine-Territorial-MCP/UA23080000000090746",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA23080000000090746",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:27:26Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA23080000000090746"
-  },
-  {
-    "description": "\u0417\u0430\u043f\u043e\u0440\u0456\u0437\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA23060000000070350",
-    "id": "Ukraine-Territorial-MCP/UA23060000000070350",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA23060000000070350",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:27:17Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA23060000000070350"
-  },
-  {
-    "description": "BuyWhere agent-native product catalog API",
-    "id": "BuyWhere/buywhere",
-    "install_info": {
-      "claude_config": "{\n  \"mcpServers\": {\n    \"buywhere\": {\n      \"command\": \"python\",\n      \"args\": [\"/path/to/buywhere-api/mcp_server.py\"],\n      \"env\": {\n        \"BUYWHERE_API_KEY\": \"your_api_key_here\",\n        \"BUYWHERE_API_URL\": \"https://api.buywhere.ai\"\n      }\n    }\n  }\n}",
-      "install_cmd": "pip install httpx",
-      "install_kind": "pip install"
-    },
-    "language": "TypeScript",
-    "name": "BuyWhere/buywhere",
-    "stars": 2,
-    "updated_at": "2026-10-11T23:27:16Z",
-    "url": "https://github.com/BuyWhere/buywhere"
-  },
-  {
-    "description": "Open-source guardrails between AI agents and FHIR clinical data \u2014 PHI redaction, immutable audit, step-up auth, tenant i",
-    "id": "aks129/HealthClawGuardrails",
-    "install_info": {
-      "claude_config": "{\n  \"mcpServers\": {\n    \"healthclaw-local\": {\n      \"type\": \"http\",\n      \"url\": \"http://localhost:3001/mcp\",\n      \"headers\": { \"X-Tenant-ID\": \"my-patient\" }\n    }\n  }\n}"
-    },
-    "language": "Python",
-    "name": "aks129/HealthClawGuardrails",
-    "stars": 31,
-    "updated_at": "2026-10-11T23:28:12Z",
-    "url": "https://github.com/aks129/HealthClawGuardrails"
-  },
-  {
-    "description": "UniDeX Agent Harness: a second brain and supervised Chief of Staff for Claude Code and Codex CLI, with persistent memory",
-    "id": "zzoretich/UniDeX-Agent-Harness",
-    "language": "JavaScript",
-    "name": "zzoretich/UniDeX-Agent-Harness",
-    "stars": 3,
-    "updated_at": "2026-10-11T23:27:09Z",
-    "url": "https://github.com/zzoretich/UniDeX-Agent-Harness"
-  },
-  {
-    "description": "\u0412\u0430\u0441\u0438\u043b\u0456\u0432\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA23040000000067730",
-    "id": "Ukraine-Territorial-MCP/UA23040000000067730",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA23040000000067730",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:27:08Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA23040000000067730"
-  },
-  {
-    "description": "\u0411\u0435\u0440\u0434\u044f\u043d\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA23020000000032289",
-    "id": "Ukraine-Territorial-MCP/UA23020000000032289",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA23020000000032289",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:26:59Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA23020000000032289"
-  },
-  {
-    "description": "\u0425\u0443\u0441\u0442\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA21120000000022889",
-    "id": "Ukraine-Territorial-MCP/UA21120000000022889",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA21120000000022889",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:26:50Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA21120000000022889"
-  },
-  {
-    "description": "\u0423\u0436\u0433\u043e\u0440\u043e\u0434\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA21100000000055073",
-    "id": "Ukraine-Territorial-MCP/UA21100000000055073",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA21100000000055073",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:26:40Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA21100000000055073"
-  },
-  {
-    "description": "Instant, accurate Unreal Engine API lookups instead of expensive source file reads, saving your agent tokens, context, a",
-    "id": "Codeturion/unreal-api-mcp",
-    "install_info": {
-      "claude_config": "{\n  \"mcpServers\": {\n    \"unreal-api\": {\n      \"command\": \"uvx\",\n      \"args\": [\"unreal-api-mcp\"],\n      \"env\": {\n        \"UNREAL_VERSION\": \"5.5\"\n      }\n    }\n  }\n}",
-      "install_cmd": "pip install unreal-api-mcp",
-      "install_kind": "pip install"
-    },
-    "language": "Python",
-    "name": "Codeturion/unreal-api-mcp",
-    "stars": 96,
-    "updated_at": "2026-10-11T23:26:33Z",
-    "url": "https://github.com/Codeturion/unreal-api-mcp"
-  },
-  {
-    "description": "Paid agent-to-agent website acceptance testing API (MCP + REST + A2A). Quick $3 \u00b7 Full $12 \u00b7 $100 credit pack. Live Stri",
-    "id": "bret1976/6frame-verify",
-    "language": "TypeScript",
-    "name": "bret1976/6frame-verify",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:26:32Z",
-    "url": "https://github.com/bret1976/6frame-verify"
-  },
-  {
-    "description": "Instant, accurate Unity API lookups instead of expensive source file reads, saving your agent tokens, context, and hallu",
-    "id": "Codeturion/unity-api-mcp",
-    "install_info": {
-      "claude_config": "{\n  \"mcpServers\": {\n    \"unity-api\": {\n      \"command\": \"uvx\",\n      \"args\": [\"unity-api-mcp\"],\n      \"env\": {\n        \"UNITY_VERSION\": \"6000.3\"\n      }\n    }\n  }\n}",
-      "install_cmd": "pip install unity-api-mcp",
-      "install_kind": "pip install"
-    },
-    "language": "Python",
-    "name": "Codeturion/unity-api-mcp",
-    "stars": 67,
-    "updated_at": "2026-10-11T23:26:32Z",
-    "url": "https://github.com/Codeturion/unity-api-mcp"
-  },
-  {
-    "description": "\u0422\u044f\u0447\u0456\u0432\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA21080000000048851",
-    "id": "Ukraine-Territorial-MCP/UA21080000000048851",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA21080000000048851",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:26:31Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA21080000000048851"
-  },
-  {
-    "description": "\u0420\u0430\u0445\u0456\u0432\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA21060000000059475",
-    "id": "Ukraine-Territorial-MCP/UA21060000000059475",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA21060000000059475",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:26:22Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA21060000000059475"
-  },
-  {
-    "description": "\u041c\u0443\u043a\u0430\u0447\u0456\u0432\u0441\u044c\u043a\u0438\u0439 | Ukraine Territorial MCP Server | KATOTTG UA21040000000077329",
-    "id": "Ukraine-Territorial-MCP/UA21040000000077329",
-    "language": "Python",
-    "name": "Ukraine-Territorial-MCP/UA21040000000077329",
-    "stars": 0,
-    "updated_at": "2026-10-11T23:26:13Z",
-    "url": "https://github.com/Ukraine-Territorial-MCP/UA21040000000077329"
+    "updated_at": "2026-10-11T23:38:30Z",
+    "url": "https://github.com/Ukraine-Territorial-MCP/UA65100000000029736"
   }
 ]
