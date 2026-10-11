@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <title>paziresh24/Griffin - entry on MCP Servers Live</title>
-<meta name="description" content="Griffin: self-hosted multi-agent AI assistant for DevOps &amp; infrastructure. Build your own agents with typed tools and pe">
+<meta name="description" content="Griffin: open-source, self-hosted platform for your own team of AI agents. Define agents with tools and per-caller permi">
 <link rel="canonical" href="https://linny006.github.io/mcp-servers-live/r/paziresh24/Griffin/">
 <meta property="og:type" content="article">
 <meta property="og:title" content="paziresh24/Griffin - entry on MCP Servers Live">
-<meta property="og:description" content="Griffin: self-hosted multi-agent AI assistant for DevOps &amp; infrastructure. Build your own agents with typed tools and pe">
+<meta property="og:description" content="Griffin: open-source, self-hosted platform for your own team of AI agents. Define agents with tools and per-caller permi">
 <meta property="og:url" content="https://linny006.github.io/mcp-servers-live/r/paziresh24/Griffin/">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="paziresh24/Griffin - entry on MCP Servers Live">
-<meta name="twitter:description" content="Griffin: self-hosted multi-agent AI assistant for DevOps &amp; infrastructure. Build your own agents with typed tools and pe">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"paziresh24/Griffin","codeRepository":"https://github.com/paziresh24/Griffin","programmingLanguage":"JavaScript","url":"https://linny006.github.io/mcp-servers-live/r/paziresh24/Griffin/","description":"Griffin: self-hosted multi-agent AI assistant for DevOps & infrastructure. Build your own agents with typed tools and pe","author":{"@type":"Person","name":"paziresh24","url":"https://github.com/paziresh24"},"dateModified":"2026-10-08"}</script>
+<meta name="twitter:description" content="Griffin: open-source, self-hosted platform for your own team of AI agents. Define agents with tools and per-caller permi">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"paziresh24/Griffin","codeRepository":"https://github.com/paziresh24/Griffin","programmingLanguage":"JavaScript","url":"https://linny006.github.io/mcp-servers-live/r/paziresh24/Griffin/","description":"Griffin: open-source, self-hosted platform for your own team of AI agents. Define agents with tools and per-caller permi","author":{"@type":"Person","name":"paziresh24","url":"https://github.com/paziresh24"},"dateModified":"2026-10-11"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -44,21 +44,30 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <nav class="bc"><a href="https://linny006.github.io/mcp-servers-live/">MCP Servers Live</a> &#183; <a href="https://linny006.github.io/mcp-servers-live/popular/">Entries</a> &#183; <span>paziresh24/Griffin</span></nav>
 <main>
 <h1>paziresh24/Griffin</h1>
-<p class="lead">Griffin: self-hosted multi-agent AI assistant for DevOps &amp; infrastructure. Build your own agents with typed tools and pe</p>
+<p class="lead">Griffin: open-source, self-hosted platform for your own team of AI agents. Define agents with tools and per-caller permi</p>
 <div class="meta">
-<span><strong>Stars</strong> 0</span>
+<span><strong>Stars</strong> 1</span>
 <span><strong>Language</strong> JavaScript</span>
-<span><strong>Last updated</strong> 2026-10-08</span>
+<span><strong>Last updated</strong> 2026-10-11</span>
 <span><a href="https://github.com/paziresh24/Griffin" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/paziresh24" rel="external">@paziresh24</a></span>
 </div>
+<section id="install"><h2>Install &amp; configure</h2>
+<p>Install method detected from README: <code>claude mcp add</code></p>
+<pre style="background:var(--card);padding:14px;border-radius:6px;overflow:auto;font-size:13px;border:1px solid var(--border);"><code>claude mcp add --transport http griffin https://griffin.example.com/mcp --header &quot;Authorization: Bearer grf_…&quot;</code></pre>
+<h3>Claude Desktop config snippet</h3>
+<p>Add to your <code>claude_desktop_config.json</code> (<code>~/Library/Application Support/Claude/claude_desktop_config.json</code> on macOS, <code>%APPDATA%\Claude\claude_desktop_config.json</code> on Windows):</p>
+<pre style="background:var(--card);padding:14px;border-radius:6px;overflow:auto;max-height:500px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>{ &quot;mcpServers&quot;: { &quot;griffin&quot;: { &quot;command&quot;: &quot;node&quot;, &quot;args&quot;: [&quot;/path/to/griffin/bin/griffin-mcp.mjs&quot;],
+  &quot;env&quot;: { &quot;GRIFFIN_URL&quot;: &quot;https://griffin.example.com&quot;, &quot;GRIFFIN_TOKEN&quot;: &quot;grf_…&quot; } } } }</code></pre>
+<p><a href="https://github.com/paziresh24/Griffin#readme" rel="external">View full README on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on MCP Servers Live because it matches the tracker's GitHub Search criteria (mcp-server) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/mcp-servers-live/r/cdeust/ai-architect-mcp-spec/">cdeust/ai-architect-mcp-spec (stars:4)</a></li>
-<li><a href="https://linny006.github.io/mcp-servers-live/r/azmartone67/dchub-mcp-server/">azmartone67/dchub-mcp-server (stars:3)</a></li>
-<li><a href="https://linny006.github.io/mcp-servers-live/r/Ambuj123-lab/career-workspace-ambujsystems/">Ambuj123-lab/career-workspace-ambujsystems (stars:0)</a></li>
+<li><a href="https://linny006.github.io/mcp-servers-live/r/withevergrow/withicons/">withevergrow/withicons (stars:1)</a></li>
+<li><a href="https://linny006.github.io/mcp-servers-live/r/mtangoz/grill/">mtangoz/grill (stars:1)</a></li>
+<li><a href="https://linny006.github.io/mcp-servers-live/r/2384418321/dsh-integration-settings/">2384418321/dsh-integration-settings (stars:0)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
