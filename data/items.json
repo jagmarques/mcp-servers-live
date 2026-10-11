@@ -1,5 +1,82 @@
 [
   {
+    "description": "Auto-updated leaderboard of trending claude-skills and AI agent repos, refreshed every 15 minutes",
+    "id": "linny006/trending-claude-skills",
+    "language": "Python",
+    "name": "linny006/trending-claude-skills",
+    "stars": 125,
+    "updated_at": "2026-10-11T06:30:14Z",
+    "url": "https://github.com/linny006/trending-claude-skills"
+  },
+  {
+    "description": "Bashoor Cafe in Piroozi, Mashhad \u2014 live Persian menu, Toman/IRR prices, llms.txt, WebMCP and MCP metadata.",
+    "id": "sepehrkeyhani00/bashoor-ai-menu",
+    "language": "HTML",
+    "name": "sepehrkeyhani00/bashoor-ai-menu",
+    "stars": 1,
+    "updated_at": "2026-10-11T06:30:05Z",
+    "url": "https://github.com/sepehrkeyhani00/bashoor-ai-menu"
+  },
+  {
+    "description": "AI-Atelier, the all in one personal \"atelier\" (means handcraft studio in french) that can adapt to your need.",
+    "id": "linxuhao/AItelier",
+    "install_info": {
+      "install_cmd": "pip install -e",
+      "install_kind": "pip install"
+    },
+    "language": "Python",
+    "name": "linxuhao/AItelier",
+    "stars": 3,
+    "updated_at": "2026-10-11T06:30:01Z",
+    "url": "https://github.com/linxuhao/AItelier"
+  },
+  {
+    "description": "Auto-updated index of MCP servers shipping on GitHub, refreshed every 15 minutes",
+    "id": "linny006/mcp-servers-live",
+    "language": "HTML",
+    "name": "linny006/mcp-servers-live",
+    "stars": 13,
+    "updated_at": "2026-10-11T06:29:57Z",
+    "url": "https://github.com/linny006/mcp-servers-live"
+  },
+  {
+    "description": "MCP server for read-only database intelligence:  schema exploration, natural-language queries, EXPLAIN analysis, index s",
+    "id": "AYUSH-148/DB-Explorer-MCP",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"db-explorer\": {\n      \"command\": \"uv\",\n      \"args\": [\"--directory\", \"C:/path/to/DB-Explorer-MCP\", \"run\", \"server.py\"],\n      \"env\": { \"DATABASE_URL\": \"postgresql+psycopg2://user:pass@localhost:5432/example\" }\n    }\n  }\n}",
+      "install_cmd": "claude mcp add db-explorer --env DATABASE_URL=\"postgresql+psycopg2://user:pass@localhost:5432/example\" -- uv --directory \"C:/path/to/DB-Explorer-MCP\" run server.py",
+      "install_kind": "claude mcp add"
+    },
+    "language": "Python",
+    "name": "AYUSH-148/DB-Explorer-MCP",
+    "stars": 6,
+    "updated_at": "2026-10-11T06:29:54Z",
+    "url": "https://github.com/AYUSH-148/DB-Explorer-MCP"
+  },
+  {
+    "description": "Public discovery card for the closed-source FluxProof remote MCP server",
+    "id": "equinoxaifinance-rgb/fluxproof-agent-card",
+    "language": "\u2014",
+    "name": "equinoxaifinance-rgb/fluxproof-agent-card",
+    "stars": 0,
+    "updated_at": "2026-10-11T06:29:47Z",
+    "url": "https://github.com/equinoxaifinance-rgb/fluxproof-agent-card"
+  },
+  {
+    "description": "This repository contains the packages that make up Pipeshub\u2019s local MCP server",
+    "id": "pipeshub-ai/mcp-server",
+    "install_info": {
+      "claude_config": "{\n  \"mcpServers\": {\n    \"pipeshub\": {\n      \"url\": \"PIPESHUB_INSTANCE_URL/mcp\",\n      \"auth\": {\n        \"CLIENT_ID\": \"YOUR_CLIENT_ID\",\n        \"CLIENT_SECRET\": \"YOUR_CLIENT_SECRET\",\n        \"scopes\": [\n          \"org:read\", \"org:write\", \"org:admin\",\n          \"user:read\", \"user:write\", \"user:invite\", \"user:delete\",\n          \"usergroup:read\", \"usergroup:write\",\n          \"team:read\", \"team:write\",\n          \"kb:read\", \"kb:write\", \"kb:delete\", \"kb:upload\",\n          \"semantic:read\", \"semantic:write\", \"semantic:delete\",\n          \"conversation:read\", \"conversation:write\", \"conversation:chat\",\n          \"agent:read\", \"agent:write\", \"agent:execute\",\n          \"connector:read\", \"connector:write\", \"connector:sync\", \"connector:delete\",\n          \"config:read\", \"config:write\",\n          \"document:read\", \"document:write\", \"document:delete\",\n          \"crawl:read\", \"crawl:write\", \"crawl:delete\"\n        ]\n      }\n    }\n  }\n}",
+      "install_cmd": "claude mcp add --transport http \\",
+      "install_kind": "claude mcp add"
+    },
+    "language": "TypeScript",
+    "name": "pipeshub-ai/mcp-server",
+    "stars": 6,
+    "updated_at": "2026-10-11T06:29:50Z",
+    "url": "https://github.com/pipeshub-ai/mcp-server"
+  },
+  {
     "description": "The ADE for AI agents. Automate everything else. Do your true work.",
     "id": "openwong2kim/wmux",
     "install_info": {
@@ -23,7 +100,7 @@
     "language": "Go",
     "name": "Higangssh/homebutler",
     "stars": 298,
-    "updated_at": "2026-10-11T06:29:08Z",
+    "updated_at": "2026-10-11T06:30:12Z",
     "url": "https://github.com/Higangssh/homebutler"
   },
   {
@@ -58,7 +135,7 @@
     "language": "Python",
     "name": "cirwel/unitares",
     "stars": 5,
-    "updated_at": "2026-10-11T06:28:55Z",
+    "updated_at": "2026-10-11T06:30:16Z",
     "url": "https://github.com/cirwel/unitares"
   },
   {
@@ -352,7 +429,7 @@
     "language": "Python",
     "name": "saagpatel/MCPAudit",
     "stars": 4,
-    "updated_at": "2026-10-11T06:23:17Z",
+    "updated_at": "2026-10-11T06:30:17Z",
     "url": "https://github.com/saagpatel/MCPAudit"
   },
   {
@@ -519,95 +596,5 @@
     "stars": 8,
     "updated_at": "2026-10-11T06:21:21Z",
     "url": "https://github.com/xyy277/doc77"
-  },
-  {
-    "description": "\u26a1 Storybook for MCP tools \u2014 auto-generates interactive docs and a live playground for your MCP servers",
-    "id": "rahulnag/mcp-playbook",
-    "install_info": {
-      "install_cmd": "npm install -D",
-      "install_kind": "npm install"
-    },
-    "language": "TypeScript",
-    "name": "rahulnag/mcp-playbook",
-    "stars": 0,
-    "updated_at": "2026-10-11T06:21:12Z",
-    "url": "https://github.com/rahulnag/mcp-playbook"
-  },
-  {
-    "description": "Multi-Agent + Automation Harness: Graph-based Workflows, MCP, Self-Improving Agents. NextJs+React",
-    "id": "mario-andreschak/FLUJO",
-    "language": "TypeScript",
-    "name": "mario-andreschak/FLUJO",
-    "stars": 660,
-    "updated_at": "2026-10-11T06:22:24Z",
-    "url": "https://github.com/mario-andreschak/FLUJO"
-  },
-  {
-    "description": "ERD Editor: design database schemas visually, import SQL DDL, GraphQL, DBML and AML, export DDL and code for 22 language",
-    "id": "dineug/erd-editor",
-    "install_info": {
-      "install_cmd": "claude mcp add --transport stdio erd-editor -- npx -y @dineug/erd-editor-mcp",
-      "install_kind": "claude mcp add"
-    },
-    "language": "TypeScript",
-    "name": "dineug/erd-editor",
-    "stars": 1723,
-    "updated_at": "2026-10-11T06:20:56Z",
-    "url": "https://github.com/dineug/erd-editor"
-  },
-  {
-    "description": "The ShapelessAI agent surface: CLI, MCP server, API contract, Claude Code plugin",
-    "id": "FirstClassTree/shapelessai",
-    "install_info": {
-      "claude_config": "{\n  \"mcpServers\": {\n    \"shapeless\": {\n      \"command\": \"npx\",\n      \"args\": [\"shapelessai\", \"mcp\"],\n      \"env\": { \"SHAPELESS_API_KEY\": \"slk_...\" }\n    }\n  }\n}",
-      "install_cmd": "claude mcp add --transport http --scope user shapeless https://shapelessai.com/mcp   # then /mcp -> Authenticate",
-      "install_kind": "claude mcp add"
-    },
-    "language": "\u2014",
-    "name": "FirstClassTree/shapelessai",
-    "stars": 1,
-    "updated_at": "2026-10-11T06:20:52Z",
-    "url": "https://github.com/FirstClassTree/shapelessai"
-  },
-  {
-    "description": "MCP server for SAP BTP ABAP Cloud and On-Premise ECC/S/4HANA ABAP ADT with full CRUD, JWT/XSUAA, and service-key auth.",
-    "id": "fr0ster/mcp-abap-adt",
-    "install_info": {
-      "install_cmd": "npm install -g @mcp-abap-adt/core",
-      "install_kind": "npm install -g"
-    },
-    "language": "TypeScript",
-    "name": "fr0ster/mcp-abap-adt",
-    "stars": 97,
-    "updated_at": "2026-10-11T06:20:57Z",
-    "url": "https://github.com/fr0ster/mcp-abap-adt"
-  },
-  {
-    "description": "This repository contains the packages that make up Pipeshub\u2019s local MCP server",
-    "id": "pipeshub-ai/mcp-server",
-    "install_info": {
-      "claude_config": "{\n  \"mcpServers\": {\n    \"pipeshub\": {\n      \"url\": \"PIPESHUB_INSTANCE_URL/mcp\",\n      \"auth\": {\n        \"CLIENT_ID\": \"YOUR_CLIENT_ID\",\n        \"CLIENT_SECRET\": \"YOUR_CLIENT_SECRET\",\n        \"scopes\": [\n          \"org:read\", \"org:write\", \"org:admin\",\n          \"user:read\", \"user:write\", \"user:invite\", \"user:delete\",\n          \"usergroup:read\", \"usergroup:write\",\n          \"team:read\", \"team:write\",\n          \"kb:read\", \"kb:write\", \"kb:delete\", \"kb:upload\",\n          \"semantic:read\", \"semantic:write\", \"semantic:delete\",\n          \"conversation:read\", \"conversation:write\", \"conversation:chat\",\n          \"agent:read\", \"agent:write\", \"agent:execute\",\n          \"connector:read\", \"connector:write\", \"connector:sync\", \"connector:delete\",\n          \"config:read\", \"config:write\",\n          \"document:read\", \"document:write\", \"document:delete\",\n          \"crawl:read\", \"crawl:write\", \"crawl:delete\"\n        ]\n      }\n    }\n  }\n}",
-      "install_cmd": "claude mcp add --transport http \\",
-      "install_kind": "claude mcp add"
-    },
-    "language": "TypeScript",
-    "name": "pipeshub-ai/mcp-server",
-    "stars": 6,
-    "updated_at": "2026-10-11T06:29:32Z",
-    "url": "https://github.com/pipeshub-ai/mcp-server"
-  },
-  {
-    "description": "Google Workspace Interface: Gmail, Drive, Docs, Sheets and Slides from the command line and MCP.",
-    "id": "rust-works/gwi",
-    "install_info": {
-      "claude_config": "{ \"mcpServers\": { \"gwi\": { \"command\": \"gwi-mcp\" } } }",
-      "install_cmd": "cargo install --path",
-      "install_kind": "cargo install"
-    },
-    "language": "Rust",
-    "name": "rust-works/gwi",
-    "stars": 0,
-    "updated_at": "2026-10-11T06:20:30Z",
-    "url": "https://github.com/rust-works/gwi"
   }
 ]
