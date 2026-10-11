@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <title>adamVass/pylos-mcp - entry on MCP Servers Live</title>
-<meta name="description" content="Read-focused, prompt-injection-hardened email MCP server for any IMAP provider">
+<meta name="description" content="Email MCP server for any IMAP mailbox, Outlook and Microsoft 365 included. Every message fenced as untrusted input, with">
 <link rel="canonical" href="https://linny006.github.io/mcp-servers-live/r/adamVass/pylos-mcp/">
 <meta property="og:type" content="article">
 <meta property="og:title" content="adamVass/pylos-mcp - entry on MCP Servers Live">
-<meta property="og:description" content="Read-focused, prompt-injection-hardened email MCP server for any IMAP provider">
+<meta property="og:description" content="Email MCP server for any IMAP mailbox, Outlook and Microsoft 365 included. Every message fenced as untrusted input, with">
 <meta property="og:url" content="https://linny006.github.io/mcp-servers-live/r/adamVass/pylos-mcp/">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="adamVass/pylos-mcp - entry on MCP Servers Live">
-<meta name="twitter:description" content="Read-focused, prompt-injection-hardened email MCP server for any IMAP provider">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"adamVass/pylos-mcp","codeRepository":"https://github.com/adamVass/pylos-mcp","programmingLanguage":"TypeScript","url":"https://linny006.github.io/mcp-servers-live/r/adamVass/pylos-mcp/","description":"Read-focused, prompt-injection-hardened email MCP server for any IMAP provider","author":{"@type":"Person","name":"adamVass","url":"https://github.com/adamVass"},"dateModified":"2026-10-11"}</script>
+<meta name="twitter:description" content="Email MCP server for any IMAP mailbox, Outlook and Microsoft 365 included. Every message fenced as untrusted input, with">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"adamVass/pylos-mcp","codeRepository":"https://github.com/adamVass/pylos-mcp","programmingLanguage":"TypeScript","url":"https://linny006.github.io/mcp-servers-live/r/adamVass/pylos-mcp/","description":"Email MCP server for any IMAP mailbox, Outlook and Microsoft 365 included. Every message fenced as untrusted input, with","author":{"@type":"Person","name":"adamVass","url":"https://github.com/adamVass"},"dateModified":"2026-10-11"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -44,7 +44,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <nav class="bc"><a href="https://linny006.github.io/mcp-servers-live/">MCP Servers Live</a> &#183; <a href="https://linny006.github.io/mcp-servers-live/popular/">Entries</a> &#183; <span>adamVass/pylos-mcp</span></nav>
 <main>
 <h1>adamVass/pylos-mcp</h1>
-<p class="lead">Read-focused, prompt-injection-hardened email MCP server for any IMAP provider</p>
+<p class="lead">Email MCP server for any IMAP mailbox, Outlook and Microsoft 365 included. Every message fenced as untrusted input, with</p>
 <div class="meta">
 <span><strong>Stars</strong> 3</span>
 <span><strong>Language</strong> TypeScript</span>
@@ -53,9 +53,8 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/adamVass" rel="external">@adamVass</a></span>
 </div>
 <section id="install"><h2>Install &amp; configure</h2>
-<p>Install method detected from README: <code>npm install</code></p>
-<pre style="background:var(--card);padding:14px;border-radius:6px;overflow:auto;font-size:13px;border:1px solid var(--border);"><code>npm install
-npm</code></pre>
+<p>Install method detected from README: <code>claude mcp add</code></p>
+<pre style="background:var(--card);padding:14px;border-radius:6px;overflow:auto;font-size:13px;border:1px solid var(--border);"><code>claude mcp add pylos-mcp --scope user -e PROVIDER=gmail -e EMAIL_USER=you@example.com \</code></pre>
 <h3>Claude Desktop config snippet</h3>
 <p>Add to your <code>claude_desktop_config.json</code> (<code>~/Library/Application Support/Claude/claude_desktop_config.json</code> on macOS, <code>%APPDATA%\Claude\claude_desktop_config.json</code> on Windows):</p>
 <pre style="background:var(--card);padding:14px;border-radius:6px;overflow:auto;max-height:500px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>{
@@ -64,7 +63,7 @@ npm</code></pre>
       &quot;command&quot;: &quot;npx&quot;,
       &quot;args&quot;: [&quot;-y&quot;, &quot;pylos-mcp&quot;],
       &quot;env&quot;: {
-        &quot;PROVIDER&quot;: &quot;mailbox.org&quot;,
+        &quot;PROVIDER&quot;: &quot;gmail&quot;,
         &quot;EMAIL_USER&quot;: &quot;you@example.com&quot;,
         &quot;EMAIL_PASSWORD&quot;: &quot;your-app-password&quot;
       }
@@ -77,9 +76,9 @@ npm</code></pre>
 <p>This repository appears on MCP Servers Live because it matches the tracker's GitHub Search criteria (mcp-server) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/mcp-servers-live/r/gripforgeai/mcp/">gripforgeai/mcp (stars:4)</a></li>
-<li><a href="https://linny006.github.io/mcp-servers-live/r/Rosalyndfaithful716/Guardrail/">Rosalyndfaithful716/Guardrail (stars:1)</a></li>
-<li><a href="https://linny006.github.io/mcp-servers-live/r/ry-ops/git-steer/">ry-ops/git-steer (stars:1)</a></li>
+<li><a href="https://linny006.github.io/mcp-servers-live/r/ruvnet/ruflo/">ruvnet/ruflo (stars:74344)</a></li>
+<li><a href="https://linny006.github.io/mcp-servers-live/r/TabularisDB/tabularis/">TabularisDB/tabularis (stars:5186)</a></li>
+<li><a href="https://linny006.github.io/mcp-servers-live/r/autonomous-ai/openharness/">autonomous-ai/openharness (stars:1225)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
